@@ -3,7 +3,7 @@ import React from 'react'
 export default function About(props) {
 
     return (
-        <div className="container my-3" style={{ backgroundColor: props.mode === 'primary' ? 'whitesmoke' : '#020912', color: props.mode === 'primary' ? 'rgb(30,30,30)' : '#cacbcc', paddingInline: "1.5rem" }}>
+        <div className="container my-3" style={{ backgroundColor: props.mode === 'primary' ? 'whitesmoke' : '#020912', color: props.mode === 'primary' ? 'rgb(30,30,30)' : '#cacbcc', paddingInline: "1.5rem", marginTop:"4rem" }}>
             <h2 style={{ backgroundColor: props.mode === 'primary' ? 'whitesmoke' : '#020912', color: props.mode === 'primary' ? 'rgb(30,30,30)' : '#F9F9F9' }}>About</h2>
             <div className="accordion" id="accordionExample" >
                 <div className="accordion-item" style={{ backgroundColor: props.mode === 'primary' ? 'whitesmoke' : '#020912', color: props.mode === 'primary' ? 'rgb(30,30,30)' : '#F9F9F9' }}>
