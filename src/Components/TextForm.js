@@ -73,7 +73,7 @@ export default function TextForm(props) {
     }
     return (
         <>
-            <div style={{ color: props.mode === 'primary' ? 'rgb(30,30,30)' : '#F9F9F9', paddingInline: "1.5rem", marginTop:"4rem" }}>
+            <div style={{ color: props.mode === 'primary' ? 'rgb(30,30,30)' : '#F9F9F9', paddingInline: "1.5rem"}}>
                 <h3 style={{ marginBottom: "1.5rem" }}>{props.heading}</h3>
                 <div className="mb-3" >
                     <textarea className="form-control" value={text} onChange={handleOnChanged} id="MyBox" rows="8" style={{ backgroundColor: props.mode === 'primary' ? 'white' : '#191c1f', color: props.mode === 'primary' ? 'rgb(30,30,30)' : '#cacbcc' }} ></textarea>
